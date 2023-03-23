@@ -14,12 +14,13 @@ matrixChainOrder(int[] dims): Esse método recebe um array com as dimensões das
 printOptimalParenthesizations(): Esse método imprime a ordem ótima de multiplicação das matrizes.
 Exemplo de uso:
 
-scss
-Copy code
+```
 int[] dims = { 50, 20, 1, 10, 100 };
 MatrixOrderOptimization mo = new MatrixOrderOptimization();
 mo.matrixChainOrder(dims);
 mo.printOptimalParenthesizations();
+```
+
 No exemplo acima, o array dims contém as dimensões das matrizes a serem multiplicadas. A classe MatrixOrderOptimization é instanciada e o método matrixChainOrder é chamado com o array dims como parâmetro. Esse método calcula a ordem ótima de multiplicação das matrizes e preenche as tabelas de custos e índices. Em seguida, o método printOptimalParenthesizations é chamado para imprimir a ordem ótima de multiplicação das matrizes.
 
 Fonte: [Wikipedia - Multiplicação de cadeia de matrizes](https://pt.wikipedia.org/wiki/Multiplica%C3%A7%C3%A3o_de_cadeia_de_matrizes)
